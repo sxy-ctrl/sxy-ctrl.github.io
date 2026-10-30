@@ -61,8 +61,8 @@ Settings → Pages → Source: **Deploy from a branch** → Branch: **main** →
 打开 Settings → Pages 提供的真实网址，检查：
 
 - 首页加载，字体与图片正常。
-- 顶部简历能切换到第 2 页，原 PDF 可下载。
-- 四个项目可筛选、打开与关闭详情。
+- 首页个人介绍与章节目录正常显示。
+- 五个项目可筛选、打开与关闭详情。
 - 章节目录能跳转。
 - 三份文档可以逐页阅读。
 - 脑图可以展开；刷新 `reader.html?doc=team-map` 仍能加载。
@@ -113,7 +113,7 @@ Settings → Pages → Source: **Deploy from a branch** → Branch: **main** →
 
 修改本目录网站文件并提交到 GitHub，选定的发布方式会更新网站。无需每次重新改 DNS。
 
-修改简历时，记得同时替换 PDF 和两页预览图片；更换作品 PDF 时同步页图及 documents.js 清单。
+更换作品 PDF 时同步页图及 documents.js 清单。
 
 官方参考：
 

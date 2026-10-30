@@ -1,4 +1,4 @@
-# 孙翔宇 · AI 产品经理个人网站
+# 孙翔宇 · AI 数据产品经理个人网站
 
 ## 文件结构
 
@@ -12,14 +12,13 @@
 ├── index.html                   # 网站首页
 ├── style.css
 ├── app.js                       # 项目筛选、详情弹窗
-├── navigation.js                # 目录高亮、两页简历切换
+├── navigation.js                # 章节目录高亮
 ├── library.js                   # 作品文档展示和项目关联
 ├── documents.js                 # 文档清单
 ├── reader.html                  # PDF 页图 / 脑图阅读器
 ├── reader.css
 ├── reader.js
-├── resume.pdf                   # 完整简历下载
-├── assets/                      # 项目 SVG 封面和简历页图
+├── assets/                      # 项目 SVG 封面
 └── documents/                   # 作品 PDF、页图、XMind、JSON
 ```
 
@@ -68,11 +67,10 @@ python3 -m http.server 8080 --bind 127.0.0.1
 - 姓名、联系方式、经历和页面结构：`index.html`
 - 项目详细描述：`app.js`
 - 配色、字号、布局：`style.css`
-- 简历：替换 `resume.pdf`，并同步更新 `assets/resume-1.webp`、`assets/resume-2.webp` 两页预览。页数变化时还需调整 `navigation.js`。
 - 作品：同步维护 `documents.js`、`documents/` 中的 PDF 和页图。
 - 封面：替换 `assets/` 中的 SVG。
 
-本仓库含个人简历、联系方式及可下载作品，发布后访客可读取这些文件。项目 SVG 为概念示意，并非真实产品截图。未主动授予他人对简历、作品和图形的使用许可。
+本仓库含联系方式及可下载作品，发布后访客可读取这些文件。项目 SVG 为概念示意，并非真实产品截图。未主动授予他人对作品和图形的使用许可。
 
 ## 外部依赖与验证范围
 

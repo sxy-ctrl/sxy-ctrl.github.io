@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="760" viewBox="0 0 1000 760">
+<defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#405845" stroke-opacity=".07"/></pattern></defs>
+<rect width="1000" height="760" fill="#e0e8db"/><rect width="1000" height="760" fill="url(#grid)"/>
+<g font-family="Arial,sans-serif" fill="#273c32">
+<text x="52" y="64" font-size="18" letter-spacing="1">CLINICAL DATA / EVALUATION SYSTEM</text>
+<text x="52" y="144" font-size="53" font-weight="700">Make quality measurable.</text>
+<text x="55" y="195" font-size="19" fill="#5b7060">EXPERT KNOWLEDGE → STRUCTURED RULES → VALIDATION</text>
+<path d="M290 365H380M620 365H710M825 445V555H175V445" fill="none" stroke="#6b826b" stroke-width="3" stroke-dasharray="9 8"/>
+<path d="M369 359l10 6-10 6m330-12 10 6-10 6" fill="none" stroke="#6b826b" stroke-width="3"/>
+<rect x="55" y="275" width="235" height="175" rx="20" fill="#f6f5f0"/><text x="80" y="320" font-size="17" fill="#647464">01 / ANNOTATION</text><text x="80" y="385" font-size="47" font-weight="700">7 MODES</text><text x="80" y="422" font-size="18">3 LEVELS OF LABELS</text>
+<rect x="380" y="275" width="240" height="175" rx="20" fill="#273c32"/><text x="405" y="320" font-size="17" fill="#c9d9c2">02 / EXPERT REVIEW</text><text x="405" y="385" font-size="47" font-weight="700" fill="#d4f663">10 DIMS</text><text x="405" y="422" font-size="18" fill="#e4eddf">SHARED SCORING RULES</text>
+<rect x="710" y="275" width="235" height="175" rx="20" fill="#f6f5f0"/><text x="735" y="320" font-size="17" fill="#647464">03 / VALIDATION</text><text x="735" y="385" font-size="47" font-weight="700">EVIDENCE</text><text x="735" y="422" font-size="18">DEFINE THE BOUNDARY</text>
+<rect x="335" y="528" width="330" height="56" rx="28" fill="#d4f663"/><text x="500" y="563" text-anchor="middle" font-size="18">BAD CASE → RULE REFINEMENT</text>
+<text x="55" y="655" font-size="20">CLINICAL EXPERIENCE, MADE REPEATABLE.</text><text x="55" y="708" font-size="17" fill="#647464">ANNOTATE → REVIEW → MEASURE → ITERATE</text>
+</g></svg>
