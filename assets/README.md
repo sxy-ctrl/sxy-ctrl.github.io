@@ -4,7 +4,7 @@
 
 | 本站图示 | 公开参考与原图 | 借鉴与调整 |
 | --- | --- | --- |
-| `data-evaluation.svg` | [Label Studio 标注界面](https://labelstud.io/blog/understanding-the-label-studio-json-format/) · [原图](https://cdn.sanity.io/images/k7elabj6/production/0be93f5f08cda24cd7c5ee8b84e4a3e851a234ed-1999x1048.png) | 借鉴标注画布与标签配置的分区；改为数据队列、区域标记、三层标签及专家复核。影像区为抽象占位，不是真实医学影像。 |
+| `data-evaluation.svg` | [Label Studio 标注界面](https://labelstud.io/blog/understanding-the-label-studio-json-format/) · [原图](https://cdn.sanity.io/images/k7elabj6/production/0be93f5f08cda24cd7c5ee8b84e4a3e851a234ed-1999x1048.png) | 借鉴标注画布与标签配置的分区；改为病例队列、区域复核、三级可用性判定及专家复核。影像区为抽象占位，不是真实医学影像。 |
 | `lingagent.svg` | [LangGraph Workflows and agents](https://docs.langchain.com/oss/python/langgraph/workflows-agents) · [Agent 工作流图](https://mintcdn.com/langchain-5e9cc07a/-_xGPoyjhyiDWTPJ/oss/images/agent_workflow.png) | 借鉴 Agent → Tool → Feedback 的结构；加入对话侧栏、上下文、MCP、3D 编辑与专家确认，未表示项目使用 LangGraph。 |
 | `orthodontics.svg` | [3D Slicer 用户界面](https://slicer.readthedocs.io/en/latest/user_guide/user_interface.html) · [主窗口结构图](https://github.com/Slicer/Slicer/releases/download/docs-resources/user_interface_main_window_rev02.png) | 借鉴模块面板、多视图和状态区域；改为抽象模型、参数、分步时间线与双端协同。模型不是解剖学重建。 |
 | `looper.svg` | [Basler pylon Viewer](https://docs.baslerweb.com/overview-of-the-pylon-viewer) · [主窗口原图](https://docs.baslerweb.com/images/screen-pylon-viewer.png) | 借鉴设备列表、取景预览、采集控制的分区；加入影像序列和云端同步。取景为抽象占位。 |
