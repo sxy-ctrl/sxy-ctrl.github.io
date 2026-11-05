@@ -65,7 +65,7 @@ Settings → Pages → Source: **Deploy from a branch** → Branch: **main** →
 - 五个项目可筛选、打开与关闭详情。
 - 章节目录能跳转。
 - 三份文档可以逐页阅读。
-- 脑图可以展开；刷新 `reader.html?doc=team-map` 仍能加载。
+- 作品区直接显示脑图缩略图，XMind 源文件可以下载。
 - 在手机移动数据、Wi-Fi 与电脑无痕窗口中实测。
 
 普通仓库网址末尾应有仓库名，不要漏掉 `/portfolio/`。资源已使用相对路径，不要为了 GitHub Pages 把它们改成 `/assets/...` 或 `/documents/...`，那会在项目子路径下失效。
@@ -105,7 +105,7 @@ Settings → Pages → Source: **Deploy from a branch** → Branch: **main** →
 | CSS/图片不显示 | 是否完整上传 assets 和 documents；路径大小写是否一致；保留相对路径 |
 | 工作流提示 Pages 未配置 | Settings → Pages 的 Source 改为 GitHub Actions，再手动运行 |
 | 更新不触发 Actions | 是否推送到 main；workflow 是否位于 `.github/workflows/pages.yml` |
-| 脑图加载失败 | 不要通过 file:// 打开；检查 team-map.json 已上传 |
+| 脑图缩略图加载失败 | 检查 `documents/team-map-preview.svg` 已上传 |
 | 新域名证书错误 | 核对 DNS 与 Custom domain，等待 GitHub 证书签发，不要绕过浏览器证书警告 |
 | 国内网络打不开 | 分别测试默认地址与域名，收集网络与错误码；GitHub Pages 不能保证所有国内线路稳定 |
 

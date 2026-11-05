@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="286" viewBox="0 0 680 286" role="img" aria-labelledby="title description">
+  <title id="title">灵芽产品人力资源分配</title>
+  <desc id="description">整理版 XMind 的四个主分支：业务范围、团队成员与投入、结构诊断、优化与机制。</desc>
+  <rect width="680" height="286" rx="14" fill="#eff3e8"/>
+  <g fill="none" stroke="#97a68d" stroke-width="2">
+    <path d="M230 143 H212 Q200 143 200 131 V81 H189"/>
+    <path d="M230 143 H212 Q200 143 200 155 V205 H189"/>
+    <path d="M450 143 H468 Q480 143 480 131 V81 H491"/>
+    <path d="M450 143 H468 Q480 143 480 155 V205 H491"/>
+  </g>
+  <g fill="#fff" stroke="#d3ddcc">
+    <rect x="15" y="45" width="174" height="72" rx="9"/>
+    <rect x="15" y="169" width="174" height="72" rx="9"/>
+    <rect x="491" y="45" width="174" height="72" rx="9"/>
+    <rect x="491" y="169" width="174" height="72" rx="9"/>
+  </g>
+  <rect x="230" y="108" width="220" height="70" rx="12" fill="#294133"/>
+  <g font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" text-anchor="middle">
+    <g font-size="18" font-weight="600" fill="#304832">
+      <text x="102" y="76">业务范围</text>
+      <text x="102" y="200">团队成员与投入</text>
+      <text x="578" y="76">结构诊断</text>
+      <text x="578" y="200">优化与机制</text>
+    </g>
+    <g font-size="14" fill="#566653">
+      <text x="102" y="99">产品线与业务模块</text>
+      <text x="102" y="223">角色与分工</text>
+      <text x="578" y="99">关键数字与风险</text>
+      <text x="578" y="223">调整与协作节奏</text>
+    </g>
+    <text x="340" y="150" font-size="20" font-weight="600" fill="#f7faef">灵芽产品人力资源分配</text>
+  </g>
+</svg>

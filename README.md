@@ -15,7 +15,7 @@
 ├── navigation.js                # 章节目录高亮
 ├── library.js                   # 作品文档展示和项目关联
 ├── documents.js                 # 文档清单
-├── reader.html                  # PDF 页图 / 脑图阅读器
+├── reader.html                  # PDF 页图 / 脑图预览
 ├── reader.css
 ├── reader.js
 ├── assets/                      # 项目 SVG 封面
@@ -60,7 +60,7 @@
 python3 -m http.server 8080 --bind 127.0.0.1
 ```
 
-浏览器打开 `http://127.0.0.1:8080/`。不要只双击 HTML：脑图需要通过 HTTP 加载 JSON。
+浏览器打开 `http://127.0.0.1:8080/`。
 
 ## 修改内容
 
